@@ -1,4 +1,97 @@
-h1 {
-    text-align:center;
-    color: plum;
-}
+body {
+    margin: 40px auto;
+    padding: 40px;
+    max-width: 600px;
+    background: rgba(198, 143, 206, 0.74);
+  }
+  
+  .content {
+    background: rgb(136, 109, 161);
+    padding: 20px;
+    border: 2px solid rgb(149, 117, 153);
+    border-radius: 25px;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  input[type="search"] {
+    border: 2px solid rgb(207, 142, 203);
+    border-radius: 28px;
+    width: 40%;
+    font-family: "Coming Soon", cursive;
+    background: rgb(247, 214, 252);
+    padding: 10px;
+  }
+  
+  .button {
+    padding: 8px;
+    border: 2px solid rgb(207, 142, 203);
+    border-radius: 28px;
+    background: rgb(247, 214, 252);
+    font-family: "Coming Soon", cursive;
+    color: rgb(141, 136, 140);
+  }
+  
+  .button:hover {
+    cursor: pointer;
+    background: rgba(221, 172, 219, 0.753);
+    color: rgb(255, 255, 255);
+  }
+  
+  hr {
+    background-color: white;
+    border: 0.5px solid rgb(207, 142, 203, 0.452);
+  }
+  
+  h1 {
+    position: relative;
+    left: 30px;
+    top: 20px;
+    font-family: "Coming Soon", cursive;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(243, 187, 231);
+    font-size: 45px;
+    margin: 10px auto;
+    padding: 0px;
+  }
+  
+  .current-weather {
+    display: flex;
+    justify-content: start;
+  }
+  
+  .current-temp {
+    position: relative;
+    left: -40px;
+    top: -10px;
+    font-family: "Coming Soon", cursive;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 60px;
+    color: rgb(243, 187, 231);
+  }
+  
+  p {
+    position: relative;
+    left: 20px;
+    top: 5px;
+    font-family: "Coming Soon", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(224, 193, 220);
+    font-size: 14px;
+  }
+  footer {
+    padding: 5px;
+    font-family: "Coming Soon", cursive;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(149, 117, 153);
+    text-align: center;
+  }
+  
