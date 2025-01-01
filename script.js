@@ -20,6 +20,7 @@ let weather = {
       humidity: 20,
     },
   };
+  
   weather.paris.temp = Math.round(weather.paris.temp);
   weather.tokyo.temp = Math.round(weather.tokyo.temp);
   weather.lisbon.temp = Math.round(weather.lisbon.temp);
@@ -101,7 +102,6 @@ let weather = {
     h1.innerHTML = `${city}`;
   
     let p = document.querySelector("#city-temp");
-    // temperature isn't changing - investigate
     p.innerHTML = `☁️${response.data.temperature.current}°C`;
   }
   
