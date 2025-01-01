@@ -90,7 +90,8 @@ let weather = {
   let day = days[now.getDay()];
   
   currentDateElement.innerHTML = `${day} ${hours}:${minutes} moderate rain. </br> Humidity: 87%, Wind: 7.2km/h`;
-  
+
+
   function displayWeather(response) {
     let temperature = Math.round(response.data.temperature.current);
     console.log(response.data.temperature.current);
@@ -100,6 +101,7 @@ let weather = {
     h1.innerHTML = `${city}`;
   
     let p = document.querySelector("#city-temp");
+    // temperature isn't changing - investigate
     p.innerHTML = `☁️${response.data.temperature.current}°C`;
   }
   
